@@ -1,0 +1,27 @@
+*{
+  background: #252525;
+  color: #efefef;
+}
+
+.recipeApp {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #fefefe;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #fefefe;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 10px;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}

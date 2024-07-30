@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Structure & Style:
+1.Build the HTML for the page. Add necessary attributes e.g. placeholder.
+2.Add bootstrap and jquery links from some CDN.
+3.Add bootstrap classes to format as a form (check getbootstrap.com)
+4.Add empty elements for error messages and the success message. */
+
+/* Interactivity:
+1.Add handlers on each element to check if the user input meets rules.  
+2.Add a submit handler for the form, that is supposed to send data to the back-end (now it will not).
+3.If all errors are zero length strings, then show success message and after 1 second reset the form. */

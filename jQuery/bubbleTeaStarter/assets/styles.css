@@ -1,0 +1,28 @@
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ 
+ .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ 
+ .thumbnails img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+ }
+ 
+ .larger-image {
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+ #mainImage {
+    max-width: 100%;
+    max-height: 400px;
+ }
