@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: green url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tvguide.com%2Fa%2Fimg%2Fcatalog%2Fprovider%2F1%2F1%2F1-172453287.jpg&f=1&nofb=1&ipt=fa322b9de184c9876a99ac32cb15002642e92ca54477c0741125bd381bfe13a4&ipo=images') no-repeat fixed center;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container{
+    width: 400px;
+    margin: 10vh auto;
+    border: 3px 3px 10px black;
+    background-color: #86f5e582;
+}
+
+h1 {
+    background-color: #86f5e4;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px cyan;
+    /* 0 0 2px black; */
+    text-align: center;
+}
+
+.completed{
+color: red;
+text-decoration: line-through;
+}
+
+ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  li {
+    line-height:  40px;
+    padding-left: 10px;
+    list-style: none;
+  }
+
+  li:nth-child(2n){
+    background-color: #86f5e4b6;
+  }
+
+  input {
+    background-color: #f7f7f785;
+    width: 100%;
+    padding: 13px 13x 13px 20px;
+    color: #2980b9;
+    font-size: 18px;
+  }
+
+  input:focus {
+    background-color: #fffffff7;
+    border: 3px solid cyan;
+    outline: none;
+  }
+
+  span {
+    background-color: darkred;
+    color: white;
+    height: 40px;
+    margin: 0 0 0 20px;
+    opacity: 0;
+    padding: 3px 15px;
+    float: right;
+    transition: 0.3s linear;
+  }
+
+  li:hover span {
+    opacity: 1;
+  }
